@@ -1,0 +1,16 @@
+#tituloHistoria {
+  font-size: 48px;
+  padding-bottom: 6rem;
+}
+
+.texto {
+  display: flex;
+  justify-content: space-between;
+}
+
+.textoHistoria {
+  width: 45%;
+  padding-right: 4rem;
+  line-height: 2;
+  text-align: right;
+}
