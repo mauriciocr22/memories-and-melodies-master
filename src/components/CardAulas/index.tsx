@@ -9,12 +9,16 @@ export function CardAulas() {
         <h1>Conheça um pouco do curso de guitarra!</h1>
         <img src={bgGuitarra} alt="Imagem de fundo (guitarras)" />
         <div className="midia">
-        <iframe src="https://www.youtube.com/embed/NsVf9m2ZnlA" title="Propaganda - MM" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+          <iframe
+            src="https://www.youtube.com/embed/NsVf9m2ZnlA"
+            title="Propaganda - MM"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          ></iframe>
         </div>
         <div className="listaVideos">
-          <Video />
-          <Video />
-          <Video />
+          <Video titulo="Aula teórica - Notas" />
+          <Video titulo="Aula prática - Acordes" />
+          <Video titulo="Aula prática - Primeira Música" />
         </div>
       </div>
     </div>
