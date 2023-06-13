@@ -40,3 +40,16 @@ header {
 #create-account:hover {
   border-color: white;
 }
+
+.sub-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.25);
+  height: 32px;
+}
+
+.sub-header p {
+  font-size: 20px;
+}

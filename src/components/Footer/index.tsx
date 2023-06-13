@@ -11,7 +11,7 @@ export function Footer() {
             exclusivamente!
           </p>
           <form>
-            <input type="email" required />
+            <input type="email" placeholder="Seu e-mail" required />
             <button type="submit">Enviar</button>
           </form>
         </div>

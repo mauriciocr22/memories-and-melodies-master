@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Marvel&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Marvel&display=swap");
 
 * {
   color: #fff;
-  font-family: 'Marvel', sans-serif;
+  font-family: "Marvel", sans-serif;
 }
 
 .titulo {
