@@ -4,6 +4,7 @@ import { Titulo } from "./components/Titulo";
 import { Historia } from "./components/Historia";
 import { Footer } from "./components/Footer";
 import { About } from "./components/About";
+import { People } from "./components/People";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <CardAulas />
       <About />
       <Historia />
+      <People />
       <Footer />
     </div>
   );

@@ -2,7 +2,7 @@ import "./style.css";
 
 export function About() {
   return (
-    <div className="sub-titulo">
+    <section className="sub-titulo">
       <h1>Sobre o curso</h1>
       <p>
         Aprender os acordes, riffs e solos de suas músicas favoritas ficou ainda
@@ -14,6 +14,6 @@ export function About() {
         musical e explore sua criatividade. Deixe de ser um careta, e venha
         pegar na palheta!
       </p>
-    </div>
+    </section>
   );
 }

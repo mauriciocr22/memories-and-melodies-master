@@ -18,3 +18,7 @@
 .textoHistoria p {
   font-size: 22px;
 }
+
+.container {
+  margin-bottom: 4rem;
+}
