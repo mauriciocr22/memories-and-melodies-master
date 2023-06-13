@@ -16,7 +16,9 @@
 }
 
 .card-people {
-  width: 18rem;
+  width: 100%;
+  max-width: 18rem;
+  min-width: 8rem;
   height: 30rem;
   border-radius: 10px;
   overflow: hidden;
@@ -78,4 +80,17 @@
 .card-people:hover img {
   transition: opacity 0.3s ease-in;
   opacity: 1;
+}
+
+@media (max-width: 1600px) {
+  .card-people {
+    width: 100%;
+    max-width: 15rem;
+    min-width: 8rem;
+    height: 30rem;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
+  }
 }
