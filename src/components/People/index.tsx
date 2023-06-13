@@ -39,9 +39,6 @@ export function People() {
           <div>
             <h2>Mateus Marques</h2>
             <p>mateusmarkz@gmail.com</p>
-            <a href="https://api.whatsapp.com/send?phone=5513996289604">
-              (13) 99628-9604
-            </a>
           </div>
         </div>
         <div className="card-people">
