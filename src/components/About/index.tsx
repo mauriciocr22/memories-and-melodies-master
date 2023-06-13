@@ -1,5 +1,7 @@
 import "./style.css";
 
+import graphImg from "../../assets/grafico.png";
+
 export function About() {
   return (
     <section className="sub-titulo">
@@ -14,6 +16,7 @@ export function About() {
         musical e explore sua criatividade. Deixe de ser um careta, e venha
         pegar na palheta!
       </p>
+      <img src={graphImg} alt="" />
     </section>
   );
 }

@@ -1,5 +1,7 @@
 import "./style.css";
+
 import Notas from "../../assets/notasMusicais.svg";
+
 export function Historia() {
   return (
     <section className="container">
