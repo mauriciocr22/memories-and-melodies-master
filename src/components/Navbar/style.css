@@ -1,14 +1,16 @@
 header {
   background-color: #202020;
   width: 100%;
-  padding: 8px 4rem;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
 }
 
 .navbar {
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 100%;
+  width: 94%;
   justify-content: space-between;
 }
 
@@ -32,9 +34,9 @@ header {
   border: 2px solid #444444;
   padding: 12px;
   border-radius: 4px;
+  transition: linear 0.1s;
 }
 
 #create-account:hover {
   border-color: white;
-  transition: linear 0.1s;
 }
